@@ -3,7 +3,7 @@ Create model for Face segmentation using transfer learning from Mask R-CNN model
 
 Supervisely is a powerful platform for computer vision development, where individual researchers and large teams can annotate and experiment with datasets and neural networks. This help people with and without machine learning expertise to create state-of-the-art computer vision applications.
 
-## Let's see step by step process to create, train and test face segemtation model on supervise.ly
+## Let's see step by step process to create, train and test face segmentation model on supervise.ly
 * Go to https://app.supervise.ly/ and login, if don't have account create new one
 * Create Team (Optional. we can use existing one also)
 
@@ -48,7 +48,7 @@ Supervisely is a powerful platform for computer vision development, where indivi
 
 ![S13](https://github.com/surinder2000/face-segmentation-maskrcnn-on-supervisely/blob/master/Screenshots/S13.png)
 
-* Create an agent sytem for training model. An agent is an OS that provides the resources for training our model. The agent must have all the resources that are required to train the model. I am launching an agent system on AWS cloud with Ubuntu Deep learning image which provide all the resources that are required for training our model
+* Create an agent system for training model. An agent is an OS that provides the resources for training our model. The agent must have all the resources that are required to train the model. I am launching an agent system on AWS cloud with Ubuntu Deep learning image which provide all the resources that are required for training our model
 * Launch EC2 instance on AWS with required AMI 
 
 
